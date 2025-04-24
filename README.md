@@ -32,7 +32,7 @@ Now .net api WS has started listening on port 5000 "ws://localhost:5000/ws/stock
 I could have address some of the point above, due to time constraint, could not able to do that.  
 Thank you for your time.
 
-# cs-react-ui
+# ca-react-ui
 
 ```js
 Clone the repo.
