@@ -46,7 +46,7 @@ Make sure UI port is the same as the server (default 5000)
 ```
 
 
-# Possible improveement
+# Possible improvement
 
 1.  useWebsocket() custom hook.
     Reconnection logic is essential for a better user experience. The useWebsocket hook should automatically try reconnecting at a regular time interval on connection failure. Maybe increase the time interval on each failed attempt. Set the max-try count as well, so after that, we could gracefully handle the error and notify the user without hammering the server and wasting browser and server resources (exponential backoff).
