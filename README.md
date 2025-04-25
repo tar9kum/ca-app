@@ -58,7 +58,8 @@ Make sure UI port is the same as the server (default 5000)
 3. Maybe PriceTrackerRow component would have been enough for this use case and we might not need a cell-based component. I did it to showcase, In real real-world app especially an analytical/trading platform, when cell of the table can have nested visual elements like button/rag/icon/tooltips/other-component, etc and the grid can have so many columns, rendering the whole row might not be a good idea. This approach will use less resources and better user experience.
 4. If the server sending update more the UI should/can process, we could use queue and process the data at consistent rate/some backpressure technique.
 5. Data compression could be a good option, when message size increases, the server should support it as well.
-6. I left a similar comment on the code as well, due to time constraints this is what I came up with, Hope this all makes sense : )
+6. Given the time constraints, I prioritized core functionality, resulting in a minimal initial styling. There's significant potential for visual enhancement, including subtle animations for price updates, improved header and button styling, and a refined overall layout. This could be achieved using standard CSS, Tailwind CSS, or other relevant libraries.
+7. I left a similar comment on the code as well, due to time constraints this is what I came up with, Hope this all makes sense : )
 
 Thank you for your time.
 
